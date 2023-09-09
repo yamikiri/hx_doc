@@ -1,0 +1,193 @@
+[   10.463429][  T421] apexd: Marking APEXd as ready
+[   10.511757][    T1] [HXTP][himax_ic_reg_init]: Entering!
+[   10.511791][    T1] [HXTP][himax_reg_overlay]: Entering!
+[   10.511797][    T1] [HXTP][himax_fp_overlay]: Entering!
+[   10.511802][    T1] [HXTP][himax_spi_drv_init]: Himax touch panel driver for HID init
+[   10.513257][    T1] [HXTP][himax_parse_dt]:  DT:gpio_3v3_en value is not valid
+[   10.513272][    T1] [HXTP][himax_parse_dt]:  DT:gpio_irq=39, gpio_rst=42, gpio_3v3_en=-2
+[   10.513280][    T1] [HXTP][himax_parse_dt]:  DT:himax,pid=1002, fw_name=himax_i2chid_1002.bin
+[   10.513287][    T1] [HXTP][himax_parse_dt]:  DT:himax,ic_det_delay=2000
+[   10.513293][    T1] [HXTP][himax_parse_dt]:  DT:himax,ic_resume_delay=150
+[   10.513322][    T1] [HXTP][himax_platform_init]: entering
+[   10.513333][    T1] [HXTP][himax_platform_init]: PDATA START
+[   10.513340][    T1] [HXTP][himax_platform_init]: ts->ic_data START
+[   10.515386][    T1] [HXTP][himax_platform_init]: Completed.
+[   10.515395][    T1] [HXTP][hx83102j_pin_reset]: Now reset the Touch chip.
+[   10.555860][    T1] [HXTP][hx83102j_sense_off]: Do not need wait FW, Status = 0x04!
+[   10.555943][    T1] [HXTP][hx83102j_sense_off]: Check enter_save_mode data[0]=C
+[   10.557059][    T1] [HXTP][hx83102j_chip_detect]: detect IC HX83102J successfully
+[   10.557063][    T1] [HXTP][hx83102j_chip_init]: IC cell type = 1
+[   10.557066][    T1] [HXTP][himax_mcu_touch_information]: HX_RX_NUM = 48,HX_TX_NUM = 32
+[   10.557068][    T1] [HXTP][himax_mcu_touch_information]: HX_MAX_PT = 10
+[   10.557070][    T1] [HXTP][himax_mcu_touch_information]: HX_INT_IS_EDGE = 0,HX_STYLUS_FUNC = 1
+[   10.557073][    T1] [HXTP][himax_mcu_touch_information]: HX_STYLUS_ID_V2 = 0,HX_STYLUS_RATIO = 1
+[   10.557075][    T1] [HXTP][himax_int_register_trigger]: level trigger low
+[   10.557353][    T1] [HXTP][himax_ts_register_interrupt]: irq enabled at gpio: 117
+[   10.557356][    T1] [HXTP][himax_int_enable]: interrupt enable = 0
+[   10.715797][  T279] init: Verified that /data/nfc has the encryption policy 5502594c4461ac14417d1397dba91b0b v2 modes 1/4 flags 0x2
+[   10.716042][  T279] init: Inferred action different from explicit one, expected 0 but got 2
+[   10.716285][  T279] init: Verified that /data/nfc/param has the encryption policy 5502594c4461ac14417d1397dba91b0b v2 modes 1/4 flags 0x2
+I/TA: Hello Rockchip gatekeeper! rpmb :0
+[   10.884503][  T451] healthd: BatteryCycleCountPath not found
+[   10.887049][  T451] healthd: battery l=50 v=3 t=2.6 h=2 st=3 c=-1600 fc=100 chg=au
+[   10.896029][  T279] file system registered
+[   10.896350][  T279] using random self ethernet address
+[   10.896356][  T279] using random host ethernet address
+I/TA: Hello Rockchip Weaver! rpmb :0
+[   11.209207][  T535] read descriptors
+[   11.209221][  T535] read strings
+[   11.336678][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.336740][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+[   11.336747][  T540] rkcif_tools_id0: update sensor info failed -19
+[   11.336829][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.336854][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[1] get remote terminal sensor failed!
+[   11.336860][  T540] stream_cif_mipi_id1: update sensor info failed -19
+[   11.336940][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.336960][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[1] get remote terminal sensor failed!
+[   11.336966][  T540] rkcif_tools_id1: update sensor info failed -19
+[   11.337043][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337060][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[3] get remote terminal sensor failed!
+[   11.337067][  T540] stream_cif_mipi_id3: update sensor info failed -19
+[   11.337146][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337164][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[2] get remote terminal sensor failed!
+[   11.337170][  T540] rkcif_tools_id2: update sensor info failed -19
+[   11.337248][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337265][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[1] get remote terminal sensor failed!
+[   11.337271][  T540] rkcif_scale_ch1: update sensor info failed -19
+[   11.337342][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337359][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[2] get remote terminal sensor failed!
+[   11.337366][  T540] stream_cif_mipi_id2: update sensor info failed -19
+[   11.337441][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337458][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+[   11.337464][  T540] rkcif_scale_ch0: update sensor info failed -19
+[   11.337540][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337557][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[2] get remote terminal sensor failed!
+[   11.337563][  T540] rkcif_scale_ch2: update sensor info failed -19
+[   11.337645][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337663][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[0] get remote terminal sensor failed!
+[   11.337669][  T540] stream_cif_mipi_id0: update sensor info failed -19
+[   11.337740][  T540] rockchip-csi2-dphy0: No link between dphy and sensor
+[   11.337757][  T540] rkcif-mipi-lvds2: rkcif_update_sensor_info: stream[3] get remote terminal sensor failed!
+[   11.337763][  T540] rkcif_scale_ch3: update sensor info failed -19
+[   11.553863][  T462] [WLAN_RFKILL]: rockchip_wifi_mac_addr: enter.
+[   11.553895][  T462] [WLAN_RFKILL]: get_wifi_addr_vendor: rk_vendor_read wifi mac address failed (-1)
+[   11.560196][  T462] usbcore: registered new interface driver rtl8821cu
+[   11.616209][  T565] dwc3 fc000000.usb: device reset
+[   11.681631][  T233] android_work: sent uevent USB_STATE=CONNECTED
+[   11.684375][   T56] android_work: sent uevent USB_STATE=DISCONNECTED
+[   12.169004][   T58] Freeing drm_logo memory: 1236K
+[   12.568897][    T9] [HXTP][himax_boot_upgrade]: Entering
+[   12.571490][    T9] [HXTP][i_get_FW]: request file himax_i2chid_1002.bin finished
+[   12.571515][    T9] [HXTP][hx_bin_desc_data_get]: CONFIG_TABLE in 28400
+[   12.571522][    T9] [HXTP][hx_bin_desc_data_get]: CID_VER in 29402
+[   12.571528][    T9] [HXTP][hx_bin_desc_data_get]: FW_VER in 29405
+[   12.571534][    T9] [HXTP][hx_bin_desc_data_get]: CFG_VER in = 00029500
+[   12.571539][    T9] [HXTP][hx_bin_desc_data_get]: HID_TABLE in 3F300
+[   12.571544][    T9] [HXTP][hx_bin_desc_data_get]: HID_DESC in 3F300
+[   12.571549][    T9] [HXTP][hx_bin_desc_data_get]: HID_RD_DESC in 3F318
+[   12.571554][    T9] [HXTP][hx_bin_desc_data_get]: End in 140
+[   12.571560][    T9] [HXTP][himax_mcu_firmware_update_0f]: Entering - total FW size=261120
+[   12.581767][    T9] [HXTP][hx83102j_sense_off]: Do not need wait FW, Status = 0x04!
+[   12.581943][    T9] [HXTP][hx83102j_sense_off]: Check enter_save_mode data[0]=C
+[   12.584197][    T9] [HXTP][hx83102j_en_hw_crc]: ECC data[1]=236, data[0]=206, retry_cnt=0
+[   12.584205][    T9] [HXTP][himax_zf_part_info]: [0]SRAM addr=00000000, fw_addr=00000400, write_size=108544
+[   12.584208][    T9] [HXTP][himax_zf_part_info]: [1]SRAM addr=10007000, fw_addr=00029400, write_size=120
+[   12.584210][    T9] [HXTP][himax_zf_part_info]: [2]SRAM addr=10007084, fw_addr=000294FE, write_size=528
+[   12.584212][    T9] [HXTP][himax_zf_part_info]: [3]SRAM addr=10007300, fw_addr=00029E00, write_size=180
+[   12.584214][    T9] [HXTP][himax_zf_part_info]: [4]SRAM addr=100072F0, fw_addr=00029DD0, write_size=16
+[   12.584217][    T9] [HXTP][himax_zf_part_info]: [5]SRAM addr=1000BBD4, fw_addr=0002B000, write_size=3076
+[   12.584219][    T9] [HXTP][himax_zf_part_info]: [6]SRAM addr=100073F0, fw_addr=00029DE0, write_size=32
+[   12.584221][    T9] [HXTP][himax_zf_part_info]: [7]SRAM addr=100028D8, fw_addr=0002CC80, write_size=404
+[   12.584224][    T9] [HXTP][himax_zf_part_info]: [8]SRAM addr=100034D8, fw_addr=0002D180, write_size=180
+[   12.584226][    T9] [HXTP][himax_zf_part_info]: [9]SRAM addr=10003658, fw_addr=0002D240, write_size=96
+[   12.584228][    T9] [HXTP][himax_zf_part_info]: [10]SRAM addr=1000C7D4, fw_addr=0002D2A4, write_size=516
+[   12.584230][    T9] [HXTP][himax_zf_part_info]: cfg_sz = 41216!, dsram_base = 100028D8, dsram_max = 1000C7D4
+[   12.584238][    T9] [HXTP][himax_mcu_write_sram_0f]: Entering - total write size = 108544
+[   12.655324][    T9] [HXTP][himax_mcu_write_sram_0f]: End
+[   12.655631][    T9] [HXTP][himax_mcu_check_crc]: Waiting for HW ready!
+[   12.656903][    T9] [HXTP][himax_mcu_check_crc]: data[3]=0,data[2]=0,data[1]=0,data[0]=0
+[   12.656907][    T9] [HXTP][himax_sram_write_crc_check]: HW CRC OK in 1 time
+[   12.657377][    T9] [HXTP][himax_mcu_write_sram_0f]: Entering - total write size = 41216
+[   12.685182][    T9] [HXTP][himax_mcu_write_sram_0f]: End
+[   12.685668][    T9] [HXTP][himax_mcu_check_crc]: Waiting for HW ready!
+[   12.687063][    T9] [HXTP][himax_mcu_check_crc]: data[3]=8C,data[2]=B5,data[1]=8A,data[0]=F8
+[   12.687171][    T9] [HXTP][himax_mcu_usb_detect_set]: USB detect status OUT!
+[   12.687327][    T9] [HXTP][himax_cable_detect_func]: Cable status change: 0x00
+[   12.687338][    T9] [HXTP][himax_mcu_firmware_update_0f]: End
+[   12.687344][    T9] [HXTP][i_update_FW]: TP upgrade OK
+[   12.687349][    T9] [HXTP][himax_boot_upgrade]: Update FW success
+[   12.687527][    T9] [HXTP][himax_mcu_assign_sorting_mode]: addr: 0x10007F04, write: 0x00000000
+[   12.688888][    T9] [HXTP][himax_mcu_assign_sorting_mode]: success to write sorting mode
+[   12.689068][    T9] [HXTP][hx83102j_sense_on]: Enter
+[   12.700314][    T9] [HXTP][himax_mcu_ic_reset]: status: loadconfig=0,int_off=0
+[   12.700332][    T9] [HXTP][hx83102j_pin_reset]: Now reset the Touch chip.
+[   12.732398][    T9] [HXTP][hx83102j_en_hw_crc]: ECC data[1]=236, data[0]=206, retry_cnt=0
+[   12.733754][    T9] [HXTP][hx83102j_reload_to_active]: data[1]=1, data[0]=236, retry_cnt=0
+[   12.733772][    T9] [HXTP][himax_mcu_power_on_init]: waiting for FW reload data
+[   12.733930][    T9] [HXTP][himax_mcu_power_on_init]: wait FW reload 1 times
+[   12.734095][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x10007F40 = 0x07, 0x00, 0x00, 0x00
+[   12.734250][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000A8 = 0x05, 0x00, 0x00, 0x00
+[   12.734406][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E8 = 0x04, 0x39, 0x02, 0x08
+[   12.734568][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E4 = 0x02, 0x00, 0x00, 0x00
+[   12.746061][    T9] [HXTP][himax_mcu_power_on_init]: wait FW reload 2 times
+[   12.746229][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x10007F40 = 0x71, 0x00, 0x00, 0x00
+[   12.746385][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000A8 = 0x05, 0x00, 0x00, 0x00
+[   12.746554][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E8 = 0x04, 0x39, 0x02, 0x08
+[   12.746710][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E4 = 0x02, 0x00, 0x00, 0x00
+[   12.757944][    T9] [HXTP][himax_mcu_power_on_init]: wait FW reload 3 times
+[   12.758111][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x10007F40 = 0x71, 0x00, 0x00, 0x00
+[   12.758266][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000A8 = 0x05, 0x00, 0x00, 0x00
+[   12.758424][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E8 = 0x04, 0x39, 0x02, 0x08
+[   12.758593][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E4 = 0x02, 0x00, 0x00, 0x00
+[   12.769387][    T9] [HXTP][himax_mcu_power_on_init]: wait FW reload 4 times
+[   12.769659][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x10007F40 = 0x71, 0x00, 0x00, 0x00
+[   12.769777][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000A8 = 0x05, 0x00, 0x00, 0x00
+[   12.769894][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E8 = 0x04, 0x39, 0x02, 0x08
+[   12.770013][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E4 = 0x02, 0x00, 0x00, 0x00
+[   12.781195][    T9] [HXTP][himax_mcu_power_on_init]: wait FW reload 5 times
+[   12.781330][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x10007F40 = 0x0D, 0x00, 0x00, 0x00
+[   12.781447][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000A8 = 0x05, 0x00, 0x00, 0x00
+[   12.781571][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E8 = 0x04, 0x3D, 0x02, 0x08
+[   12.781687][    T9] [HXTP][himax_mcu_read_FW_status]: reg[0-3] : 0x900000E4 = 0x02, 0x00, 0x00, 0x00
+[   12.792333][    T9] [HXTP][himax_mcu_power_on_init]: FW reload done
+[   12.793085][    T9] [HXTP][himax_mcu_tp_info_check]: TOUCH_INFO updated
+[   12.793214][    T9] [HXTP][himax_mcu_read_FW_ver]: PANEL_VER : 1D
+[   12.793221][    T9] [HXTP][himax_mcu_read_FW_ver]: FW_VER : C403
+[   12.793334][    T9] [HXTP][himax_mcu_read_FW_ver]: TOUCH_VER : 1
+[   12.793341][    T9] [HXTP][himax_mcu_read_FW_ver]: DISPLAY_VER : 0
+[   12.793448][    T9] [HXTP][himax_mcu_read_FW_ver]: CID_VER : 1A01
+[   12.793570][    T9] [HXTP][himax_mcu_read_FW_ver]: Cusomer ID = Lenovo
+[   12.793694][    T9] [HXTP][himax_mcu_read_FW_ver]: Project ID = Duet
+[   12.793702][    T9] [HXTP][himax_boot_upgrade]: pid match, dtsi pid = 0x1002, fw pid = 0x1002
+[   12.793718][    T9] [HXTP][hx_hid_rd_init]: Re-assign HID DIAG size: original = 5005, new = 3236
+[   12.793724][    T9] [HXTP][himax_boot_upgrade]: hid RD init success
+[   13.603322][  T329] type=1400 audit(1694067530.946:63): avc: denied { read } for comm="Binder:337_2" name="wakeup4" dev="sysfs" ino=25130 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[   13.603430][  T329] type=1400 audit(1694067530.946:64): avc: denied { open } for comm="Binder:337_2" path="/sys/devices/platform/fdba8000.jpege-core/wakeup/wakeup4" dev="sysfs" ino=25130 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+[   13.603481][  T329] type=1400 audit(1694067530.946:65): avc: denied { read } for comm="Binder:337_2" name="event_count" dev="sysfs" ino=25137 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[   13.603509][  T329] type=1400 audit(1694067530.946:66): avc: denied { open } for comm="Binder:337_2" path="/sys/devices/platform/fdba8000.jpege-core/wakeup/wakeup4/event_count" dev="sysfs" ino=25137 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[   13.603530][  T329] type=1400 audit(1694067530.946:67): avc: denied { getattr } for comm="Binder:337_2" path="/sys/devices/platform/fdba8000.jpege-core/wakeup/wakeup4/event_count" dev="sysfs" ino=25137 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+[   13.603788][  T329] type=1400 audit(1694067530.946:68): avc: denied { read } for comm="Binder:337_2" name="wakeup18" dev="sysfs" ino=36873 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs_power:s0 tclass=dir permissive=1
+[   13.603809][  T329] type=1400 audit(1694067530.946:69): avc: denied { open } for comm="Binder:337_2" path="/sys/devices/virtual/power_supply/test_ac/wakeup18" dev="sysfs" ino=36873 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs_power:s0 tclass=dir permissive=1
+[   13.638896][  T215] [HXTP][hx_check_power_status]: Update ts->latest_power_status = 1
+[   13.639206][  T215] [HXTP][himax_mcu_usb_detect_set]: USB detect status IN!
+[   13.639492][  T215] [HXTP][himax_cable_detect_func]: Cable status change: 0x01
+[   13.793825][    T9] [HXTP][hx_hid_desc_fetch]: desc_length:           24
+[   13.793852][    T9] [HXTP][hx_hid_desc_fetch]: bcd_version:           0x300
+[   13.793858][    T9] [HXTP][hx_hid_desc_fetch]: report_desc_length:    1088
+[   13.793863][    T9] [HXTP][hx_hid_desc_fetch]: max_input_length:      84
+[   13.793869][    T9] [HXTP][hx_hid_desc_fetch]: max_output_length:     0
+[   13.793874][    T9] [HXTP][hx_hid_desc_fetch]: max fragment length:   0
+[   13.793879][    T9] [HXTP][hx_hid_desc_fetch]: vendor_id:             0x4858
+[   13.793884][    T9] [HXTP][hx_hid_desc_fetch]: product_id:            0x1002
+[   13.793888][    T9] [HXTP][hx_hid_desc_fetch]: version_id:            0x1a01
+[   13.793893][    T9] [HXTP][hx_hid_desc_fetch]: flags:                 0x0
+[   13.793931][    T9] [HXTP][hx_hid_parse]: rdesc parse success
+[   13.797393][    T9] input: hid-hxtp 4858:1002 as /devices/platform/feb10000.spi/spi_master/spi1/spi1.0/001C:4858:1002.0001/input/input8
+[   13.798121][    T9] input: hid-hxtp 4858:1002 Stylus as /devices/platform/feb10000.spi/spi_master/spi1/spi1.0/001C:4858:1002.0001/input/input9
+[   13.799033][    T9] hid-multitouch 001C:4858:1002.0001: input,hidraw0: <UNKNOWN> HID v3.00 Device [hid-hxtp 4858:1002] on
+[   13.799230][    T9] [HXTP][hx_hid_probe]: hid init success
+[   13.799239][    T9] [HXTP][hx_hid_register]: hid probe success
+[   13.799245][    T9] [HXTP][hx_hid_report_data_init]: base touch_info_size = 84
+[   13.799251][    T9] [HXTP][hx_hid_report_data_init]: include stylus touch_info_size = 168
+[   13.799257][    T9] [HXTP][hx_hid_report_data_init]: include heatmap touch_info_size = 2484
+[   13.799323][    T9] [HXTP][himax_int_enable]: interrupt enable = 1
